@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #1c6caa;
+    height: 100vh;
+}
+
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+     margin-top: 9%;
+}
+
+.flex{
+    display: flex;
+}
+
+section.top{
+    padding: 40px 1%;
+}
+
+section.top .flex{
+    align-items: center;
+    justify-items: center;
+    gap: 150px;
+}
+
+.top h1{
+    color: #fff;
+    font-size: 33px;
+    line-height: 40px;
+}
+
+.txt_top p{
+    color: #fff;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+.img_top img{
+    height: 510px;
+    width: 500px;
+}
+
+.img_top img{
+    position: relative;
+    animation: flutuar 1s ease-in-out infinite alternate;
+}
